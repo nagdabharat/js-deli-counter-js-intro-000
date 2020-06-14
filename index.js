@@ -9,8 +9,8 @@ function currentLine(line) {
   } else {
     var temparray = []
     for (i = 0; i < line.length; i++) {
-      
+
     }
   }
-  
+
 }
