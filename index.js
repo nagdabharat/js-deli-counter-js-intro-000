@@ -9,7 +9,7 @@ function currentLine(line) {
   } else {
     var temp = 'The line is currently:'
     for (let i = 1; i <= line.length; i++) {
-      temp = temp.concat(` ${i}. ${line[i-1]} ${(i < line.length ? ',' :'')}`);
+      temp = temp.concat(` ${i}. ${line[i-1]}${(i < line.length ? ',' :'')}`);
     }
   }
   return temp;
