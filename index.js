@@ -5,10 +5,10 @@ function takeANumber(line, name) {
 
 function currentLine(line) {
   if(line.length == 0) {
-    var temp = 'The line is currrently empty.';
+    var temp = 'The line is currently empty.';
   } else {
     var temp = 'The line is currently:'
-    for (i = 1; i <= line.length; i++) {
+    for (let i = 1; i <= line.length; i++) {
       temp = temp.concat(` ${i}. ${line[i]},`);
     }
   }
